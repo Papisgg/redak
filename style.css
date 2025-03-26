@@ -27,6 +27,12 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 1440px) {
+    .page {
+        width: calc(100% - 35vh);
+    }
+}
+
 .header {
     width: 100%;
     position: fixed;
@@ -550,7 +556,7 @@ body {
     }
 
     .plashka_subtitle {
-        font-size: 16px;
+        font-size: 14px;
     }
     .plashka_btn {
         border: none;
@@ -1719,9 +1725,7 @@ body {
 }
 
 @media (max-width: 1440px) {
-    .page {
-        width: calc(100% - 35vh);
-    }
+
 
     .logo_cont {
         padding: 5px 0;
