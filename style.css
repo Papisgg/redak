@@ -52,8 +52,7 @@ body {
     background-color: #E3FFF5;
 }
 
-.logo {
-}
+.logo {height: auto;width: 18%;}
 
 .header_btn {
     display: flex;
@@ -76,17 +75,17 @@ body {
 }
 
 .login_img {
-    padding-right: 6px;
+    padding-right: 2px;
+    width: 30%;
+    height: auto;
 }
 
 .nav {
     width: 100%;
-    padding: 10px 0;
-
+    padding: 7px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #E3FFF5;
 }
 
@@ -100,12 +99,10 @@ body {
     align-items: center;
     flex-wrap: wrap;
     row-gap: 14px;
-    justify-content: space-between;
+    justify-content: start;
 }
 
-.nav_cont .nav_link:last-child {
-    margin-right: 0;
-}
+.nav_cont .nav_link:last-child {margin-left: auto;margin-right: 0;}
 
 .nav_link {
     font-size: 20px;
@@ -383,7 +380,7 @@ body {
 }
 
 .plashka_title {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
     position: relative;
@@ -392,7 +389,7 @@ body {
 }
 
 .plashka_text {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     color: #000;
     position: relative;
@@ -402,9 +399,8 @@ body {
 
 .plashka_subtitle {
     color: #000;
-    font-size: 18px;
+    font-size: 14px;
     max-width: 65%;
-
 }
 
 .revivews_btn_cont {
@@ -415,13 +411,11 @@ body {
 }
 
 .next_btn {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 0;
-    
     border: none;
     border-radius: 1000px;
-
     background-color: #E0DADA;
 }
 
@@ -487,11 +481,11 @@ body {
 .plashka_btn {
     border: none;
     background-color: #5B27D3;
-    padding: 23px 0;
+    padding: 10px 0;
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
     color: #fff;
     border-radius: 21px;
@@ -499,9 +493,9 @@ body {
 
 .form_input, .form_textarea {
     width: 100%;
-    padding: 15px 15px;
-    margin-bottom: 16px;
-    font-size: 20px;
+    padding: 10px 10px;
+    margin-bottom: 12px;
+    font-size: 12px;
     font-weight: 400;
     color: #E2E2E2;
     border: none;
@@ -644,9 +638,9 @@ body {
 
 
 .footer {
-    margin-top: 125px;
+    margin-top: 35px;
     width: 100%;
-    padding: 40px 0 83px 0;
+    padding: 15px 0 30px 0;
     background-color: #F7ECEC;
 }
 
@@ -679,7 +673,7 @@ body {
 }
 
 .link_cont .footer_link:first-child {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .footer_last {
@@ -1036,8 +1030,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    transform: translate(55%, 50%);
+    width: 55%;
+    height: 50%;
     z-index: 1;
     filter: invert(1);
     background-image: url(img/Polygon_10.svg);
@@ -1050,11 +1045,13 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    transform: translate(33%, 50%);
+    width: 55%;
+    height: 50%;
     z-index: 1;
     filter: invert(1);
-    background-image: url(img/Polygon_9.svg);
+    background-image: url(
+    img/Polygon_9.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1736,7 +1733,7 @@ body {
         font-size: 14px;
         font-weight: 400;
         font-family: "Inter", sans-serif;
-        padding: 11px 30px;
+        padding: 10px 14px;
         color: #fff;
         border: none;
         border-radius: 21px;
@@ -1744,21 +1741,21 @@ body {
     }
 
     .nav_link {
-        font-size: 17px;
+        font-size: 14px;
         font-weight: 600;
         background-color: #dedede;
         color: #000;
-        padding: 12px 16px;
+        padding: 5px 10px;
         border-radius: 41px;
     }
 
     .footer_logo {
-        max-width: 280px;
+        max-width: 175px;
         filter: invert(1);
     }
 
     .footer_link {
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         display: block;
     }
@@ -1766,9 +1763,9 @@ body {
     .footer_last .plashka_btn {
         background-color: #dedede;
         color: #000;
-        max-width: 500px;
+        max-width: 330px;
         margin: 0;
-        padding: 12px 0;
-        font-size: 18px;
+        padding: 10px 0;
+        font-size: 12px;
     }
 }
