@@ -63,10 +63,10 @@ body {
 .header_btn {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
-    padding: 11px 30px;
+    padding: 8px 10px;
     color: #fff;
     border: none;
     border-radius: 21px;
@@ -111,11 +111,11 @@ body {
 .nav_cont .nav_link:last-child {margin-left: auto;margin-right: 0;}
 
 .nav_link {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
     background-color: #dedede;
     color: #000;
-    padding: 16px 24px;
+    padding: 5px 10px;
     border-radius: 41px;
 }
 
@@ -659,7 +659,7 @@ body {
 }
 
 .footer_logo {
-    max-width: 508px;
+    max-width: 175px;
     filter: invert(1);
 }
 
@@ -673,7 +673,7 @@ body {
 }
 
 .footer_link {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 400;
     display: block;
 }
@@ -697,9 +697,9 @@ body {
 .footer_last .plashka_btn {
     background-color: #dedede;
     color: #000;
-    max-width: 637px;
+    max-width: 369px;
     margin: 0;
-    padding: 23px 0;
+    padding: 10px 0;
 }
 
 @media (max-width: 930px) {
