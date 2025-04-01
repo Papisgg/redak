@@ -1773,3 +1773,11 @@ body {
         font-size: 12px;
     }
 }
+
+.about {
+    margin: 0;
+}
+
+.about_subtitle {
+    marign-bottom: -30px;
+}
