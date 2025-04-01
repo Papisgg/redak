@@ -1091,9 +1091,7 @@ body {
     width: 565px;
     height: 460px;
     padding: 24px;
-
     border-radius: 16px;
-
     background-color: #E3FFF5;
 }
 
@@ -1124,21 +1122,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    margin-bottom: 60px;
+    margin-bottom: 25px;
 }
 
 .register_btn {
     width: 48%;
-    height: 50px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
-    padding: 12px 0;
-
+    padding: 10px 0;
     border: none;
     border-radius: 5px;
-
     background-color: #dedede;
 }
 
@@ -1162,17 +1156,17 @@ body {
 .form_label {
     display: block;
     width: 100%;
-    margin-bottom: 14px;
-    font-size: 16px;
+    margin-bottom: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 
 .form_input_register {
     display: block;
     width: 100%;
-    padding: 17px 16px;
-    margin-bottom: 24px;
-    font-size: 16px;
+    padding: 10px 10px;
+    margin-bottom: 12px;
+    font-size: 12px;
     font-weight: 400;
     border: none;
     border-radius: 12px;
@@ -1189,10 +1183,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 62px;
-    padding: 16px 0;
+    padding: 10px 0;
+    margin-top: 35%;
     text-align: center;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
     color: rgba(255, 255, 255, .66);
     border: none;
@@ -1694,13 +1688,13 @@ body {
 
 .rotating-element {
     display: none;
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border-radius: 100px;
-    border: 10px solid #3498db;
-    border-left: 5px solid #3498db;
-    border-bottom: 3px solid #3498db;
-    border-right: 1px solid #3498db;
+    border: 6px solid #3498db;
+    border-left: 3px solid #3498db;
+    border-bottom: 2px solid #3498db;
+    border-right: 0.5px solid #3498db;
     border-top: 0px solid #3498db;
     animation: rotate 2s linear infinite;
   }
