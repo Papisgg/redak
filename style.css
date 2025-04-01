@@ -964,7 +964,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 155px;
 }
 
 .croshki_link {
@@ -1000,7 +1000,7 @@ body {
         align-items: center;
         justify-content: space-between;
         margin-top: 0px;
-        width: 125px;
+        width: 115px;
     }
 }
 
@@ -1778,6 +1778,12 @@ body {
     margin: 0;
 }
 
-.about_subtitle {
-    marign-bottom: -30px;
+.plashka_title.about_subtitle {
+    margin-bottom: -30px;
+}
+
+@media (max-width: 930px) {
+    .plashka_title.about_subtitle {
+        margin-bottom: 0;
+    }
 }
