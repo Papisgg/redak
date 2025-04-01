@@ -955,22 +955,20 @@ body {
 }
 
 .big_title {
-    font-size: 54px;
+    font-size: 23px;
     font-weight: 500;
-    margin-bottom: 32px;
+    margin-bottom: -30px;
 }
 
 .croshki {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 26px;
-    margin-bottom: 32px;
     width: 200px;
 }
 
 .croshki_link {
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 400;
     color: #653EFF;
 }
@@ -986,13 +984,13 @@ body {
 
 @media (max-width: 930px) {
     .big_title {
-        font-size: 36px;
+        font-size: 22px;
         font-weight: 500;
-        margin-bottom: 16px;
+        margin-bottom: -6px;
     }
 
     .croshki_link {
-        font-size: 14px;
+        font-size: 11px;
         font-weight: 400;
         color: #653EFF;
     }
@@ -1002,13 +1000,12 @@ body {
         align-items: center;
         justify-content: space-between;
         margin-top: 0px;
-        margin-bottom: 16px;
         width: 125px;
     }
 }
 
 .we_can_do {
-    width: 300px;
+    width: 155px;
 }
 
 .we_work {
@@ -1017,7 +1014,7 @@ body {
 
 @media (max-width: 930px) {
     .we_can_do {
-        width: 190px;
+        width: 145px;
     }
 
     .we_work {
