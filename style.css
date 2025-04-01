@@ -1009,7 +1009,7 @@ body {
 }
 
 .we_work {
-    width: 435px;
+    width: 245px;
 }
 
 @media (max-width: 930px) {
@@ -1018,7 +1018,7 @@ body {
     }
 
     .we_work {
-        width: 275px;
+        width: 235px;
     }
 }
 
