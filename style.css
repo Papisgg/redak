@@ -378,7 +378,7 @@ body {
     background-color: #F7ECEC; /* Цвет фона самого div */
     border-radius: 12px; /* Скругление внутреннего края */
     z-index: 0; /* Чтобы контент был поверх псевдоэлемента */
-    margin: -15px; /* Отступ для padding */
+    margin: 15px; /* Отступ для padding */
 }
 
 .colum .plashka:first-child {
@@ -1786,4 +1786,17 @@ body {
     .plashka_title.about_subtitle {
         margin-bottom: 0;
     }
+}
+
+.comment.plashka::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F7ECEC;
+    border-radius: 12px;
+    z-index: 0;
+    margin: 15px;
 }
