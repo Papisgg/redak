@@ -1208,14 +1208,14 @@ body {
 }
 
 .info_title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 200;
 }
 
 .username, .balance {
-    font-size: 64px;
+    font-size: 32px;
     font-weight: 400;
-    margin-top: 16px;
+    margin-top: 6px;
 }
 
 .balance_cont {
