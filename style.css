@@ -378,7 +378,7 @@ body {
     background-color: #F7ECEC; /* Цвет фона самого div */
     border-radius: 12px; /* Скругление внутреннего края */
     z-index: 0; /* Чтобы контент был поверх псевдоэлемента */
-    margin: 15px; /* Отступ для padding */
+    margin: -15px; /* Отступ для padding */
 }
 
 .colum .plashka:first-child {
